@@ -1,7 +1,7 @@
 from collections import deque
 
 def max_sliding_window(arr, k):
-    n = len(arr)
+    n = len(arr) 
     if n == 0: return []
 
     dq = deque()  # Deque to store indices of elements
