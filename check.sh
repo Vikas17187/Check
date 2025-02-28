@@ -4,7 +4,7 @@ def max_sliding_window(arr, k):
     n = len(arr) 
     if n == 0: return []
 
-    dq = deque()  # Deque to store indices of elements
+    dq = deque()  # Deque to store indices of elements 
     result = [] 
  
     for i in range(n):
