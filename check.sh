@@ -5,7 +5,7 @@ def max_sliding_window(arr, k):
     if n == 0: return []
 
     dq = deque()  # Deque to store indices of elements
-    result = []
+    result = [] 
  
     for i in range(n):
         # Remove elements out of the current window
